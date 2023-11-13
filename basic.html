@@ -26,15 +26,18 @@
             }
 
             p {
-                color: #A9A9A9;
+                color: #5A5A5A;
                 font-size: 16px;
                 font-family: 'Open Sans', serif;
                 width: 50%;
             }
             #quote {
-                color: darkgray;
+                color: slategray;
                 font-style: italic;
-                border: solid lightskyblue 2px;
+            }
+
+            .book {
+                border: 4px solid lightskyblue;
             }
 
             #bargraph {
@@ -79,13 +82,13 @@
 
         <h1 class="alert">My name is Srikar Rajendran and I am a junior at Syracuse University!</h1>
         
-        <h2>I am from San Jose, California. I am an avid sports fan and am a fan of Bay Area teams. I also enjoy listening to music and watching movies.</h2>
-        <!-- Include: a brief intro to yourself -- where you're from, what you like to do for fun, what you're studying, and who your community or family is. -->
+        <h2>My intro</h2>
+        <!-- Include: a brief intro to yourself -- where you're from, what you like to do for fun, what you're studying, and who your community or family is. --> <p> I am from <strong>San Jose, California.</strong> I am an avid sports fan and am a fan of <i> Bay Area teams.</i> I also enjoy listening to music and watching movies.</p>
         <!-- Tags to use: <p>, <strong>, <i> -->
         
 
-        <h2 class="alert">Instagram: @srikar.rajendran, Twitter: @SrikarRajendran</h2>
-        <!-- Include: at least two handles for your social media accounts -->
+        <h2>My handles</h2>
+        <!-- Include: at least two handles for your social media accounts --> <p> I am on <a href="https://www.instagram.com/srikar.rajendran/" target="_blank">Instagram</a> and <a href="https://twitter.com/SrikarRajendran" target="_blank">Twitter.</a> </p>
         <!-- Tags to use: <p>, <a> -->
 
     
@@ -95,14 +98,14 @@
 
 
         <h2>My favorite meme</h2>
-        <!-- Include: "large_wink.png" as an image --> <img src="large_wink.png">
+        <!-- Include: "large_wink.png" as an image --> <img src="large_wink.png" alt="a funny meme about final versions of assignments">
         <!-- Tags to use: <img> -->
         <!-- Hint! Use 'reference_sheet.html', which you downloaded with this file, to remember how to include an image. -->
 
     
         <h2>Why I'm a great student</h2>
         <!-- Include: Use 'reference_sheet.html' to figure out how to add an unordered list here --> <ul>
-                <li>I always pay attention</li>
+                <li>I <strong>always</strong> pay attention</li>
                 <li>I stay on top of work</li>
                 <li>I apply myself whenever I can</li>
             </ul>
@@ -112,32 +115,30 @@
         <h2>Top 3 most famous people from my hometown</h2>
         <!-- Include: an ordered list --> <ol>
                 <li>Steve Wozniak</li>
-                <li>Aaron Gordon</li>
+                <li><a href= "https://en.wikipedia.org/wiki/Aaron_Gordon" target="_blank">Aaron Gordon</a></li>
                 <li>Matt Stonie</li>
             </ol>
         <!-- Tags to use: <ol>, <li>, <a> -->
 
 
         <h2> ~ Challenge: Read my poetry ~</h2>
-        <!-- Challenge! Use the internet to figure out what a <br> tag is. Write a short poem about your college experience so far. --> <p>I'm tired every day<br>
-I always have some work to do<br>
-I have priorities and time management to keep in mind<br>
-But I still survive. </p>
+        <!-- Challenge! Use the internet to figure out what a <br> tag is. Write a short poem about your college experience so far. --> <p>I'm tired every day<br>I always have some work to do<br>I have priorities and time management to keep in mind<br>But I still survive.</p>
         <!-- Tags to use: <p> tags for your lines of poetry, and at least two <br> tags -->
     
 
         <h2>This is one of my favorite quotes</h2>
-        <!-- Include: a quote from a book -- quote should be in italics and gray, title of source should be in an <h3> tag --> <p id="quote">“Beware; for I am fearless, and therefore powerful.”</p> 
-            <h3> - Mary Shelley, Frankenstein </h3>
+        <!-- Include: a quote from a book -- quote should be in italics and gray, title of source should be in an <h3> tag --> 
+            <h3>Mary Shelley, Frankenstein</h3>
+            <p id="quote">“Beware; for I am fearless, and therefore powerful.”</p> 
         <!-- Tags to use: <h3>, <p> with an id named 'quote' that is styled in the <style> section -->
 
 
         <h2>These are more of my favorite books</h2>
-        <!-- Include: an unordered list of at least three books, list items should have a border --> <ul>
-                <li>Harry Potter</li>
-                <li>Tintin</li>
-                <li>To Kill A Mockingbird</li>
-            </ul>
+        <!-- Include: an unordered list of at least three books, list items should have a border --><ul class="book">
+                <li>Harry Potter and the Philosopher's Stone, J.K. Rowling</li>
+                <li>Tintin, Herge</li>
+                <li>The Great Gatsby, F. Scott Fitzgerald</li>
+        </ul>
         <!-- Tags to use: <ul>, <li> with classes named 'book' that is styled in the <style> section -->
         
 
