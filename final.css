@@ -12,13 +12,14 @@
 	font-size: 50px;
 	text-align: center;
 	font-family: 'Georgia', serif;
-	background-color: turquoise;
-	opacity: 20%;
-/*	opacity: 20%; I tweaked the opacity to make the header a little more light on the eyes and transparent. I thought it looked like a cool design to implement.*/
+	background-color: #FC0000;
+	opacity: 50%;
+/*	opacity: 50%; I tweaked the opacity to make the header a little more dark. I thought it looked like a cool design to implement considering the red now looks like blood.*/
 
 }
 p {
-	font-family: 'Times New Roman', serif;
+	font-family: 'Hedvig Letters Serif', serif;
+	font-family: 'Kalnia', serif;
 	font-size: 20px;
 }
 img {
@@ -42,6 +43,9 @@ h3 {
 /*Don't worry about this section yet*/
 @media only screen and (max-width: 767px)
 {
+  img {
+	float: none;
+	}
  .list {
  	float: none;
  	min-width: 90%;
@@ -52,5 +56,8 @@ h3 {
  iframe {
  	min-width: 90%;
  	margin-right: 10px;
+ }
+ .footer p {
+ 	background-color: yellowgreen;
  }
 }
